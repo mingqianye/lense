@@ -1,4 +1,4 @@
 Rails.application.routes.draw do
-  get 'landing/index'
+  get 'categories', to: 'categories#index', as: 'categories'
   root to: 'landing#index'
 end
